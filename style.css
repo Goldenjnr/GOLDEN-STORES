@@ -466,7 +466,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
 
     .arch{
-        height: 110%;
+        height: 100%;
     }
 
     .cards h3{
@@ -510,7 +510,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
 
     .arch{
-        height: 120%;
+        height: 100%;
     }
 
     footer{
