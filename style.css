@@ -18,7 +18,11 @@ header .country{
     text-align: center;
 }
 
-section{
+header .country select option{
+    border-radius: 2% 2% 2% 2%;
+}
+
+section{ 
     padding: 5%;
 }
 
@@ -242,7 +246,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
     header {
         padding: 2rem 4%;
     }
@@ -250,7 +254,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     .country {
         z-index: 10%;
         position: relative;
-        left: 20%;
+        left: 35%;
     }
 
     section {
@@ -268,16 +272,22 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
 
     .arch{
-        width: 80%;
-        height: 118%;
+        width: 70%;
+        height: 150%;
         position: absolute;
         z-index: -1;
+        opacity: 90%;
     }
 
     .cards h3{
         position: relative;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin: 3rem 0 2rem;
+    }
+
+    .cards p{ 
+        font-size: 1.2rem;
+        color: black;
     }
 }
 
@@ -288,6 +298,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
     body{
         height: 100%;
+    }
+
+    header .country {
+        left: 30%;
+        text-align: center;
     }
 
     .sign,
@@ -318,7 +333,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
 
     .arch{
-        height: 100%;
+        height: 124%;
+        opacity: 90%;
     }
 
     .logs {
@@ -334,7 +350,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
     .cards h3{
         position: relative;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         margin: 4rem 0 1rem;
     }
 
@@ -355,7 +371,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
 }
 
-@media (max-width: 520px) {
+/* @media (max-width: 520px) {
     footer{
         padding-top: 32%;
         padding-left: 5%;
@@ -364,9 +380,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     .arch{
         height: 103%;
     }
-}
+} */
 
-@media (max-width: 462px) {
+/* @media (max-width: 462px) {
     header .country{
         padding-left: 10%;
         text-align: center;
@@ -411,17 +427,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         padding-top: 35%;
         padding-left: 5%;
     }
-}
+} */
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
     html{
         font-size: 70%;
     }
 
     header .country{
-        padding-left: 8%;
+        padding-left: 0%;
         text-align: center;
     }
+
+    
 
     .sign,
     .apple,
@@ -466,25 +484,32 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
 
     .arch{
-        height: 90%;
+        position: absolute;
+        right: 0;
+        height: 125%;
+        width: 100%;
+        opacity: 0.8;
     }
 
     .cards h3{
         position: relative;
         font-size: 1.1rem;
-        margin: 4rem 0 1rem;
+        margin: 5rem 0 1rem;
     }
 
     footer{
-        padding-top: 40%;
+        padding-top: 50%;
         padding-left: 5%;
     }
 }
 
-@media (max-width: 371px) {
+@media (max-width: 375px) {
     header .country{
-        padding-left: 5%;
-        text-align: center;
+        /* position: relative; */
+        left: 20%;
+        /* right: 4; */
+        /* text-align: center; */
+        /* justify-content: center; */
     }
 
     .sign,
@@ -515,11 +540,54 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
 
     .arch{
-        height: 90%;
+        width: 150%;
+        height: 128%;
+        opacity: 75%;
+    }
+
+    .logs #first{   
+        font-size: 120%;
+    }
+
+    .logs #sec{
+        font-size: 120%;
+    }
+
+    .cards h3{
+        font-size: 130%;
     }
 
     footer{
-        padding-top: 47%;
+        padding-top: 58%;
+        padding-left: 5%;
+    }
+
+    footer p {
+        font-size: 110%;
+        font-weight: 300%;
+    }
+
+    footer ul li{
+        font-size: 120%;
+    }
+}
+
+@media (max-width: 320px) {
+    header .country{
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    .arch{
+        position: absolute;
+        right: 0;
+        border-radius: 2% 2% 2% 2%;
+        height: 140%;
+        opacity: 75%;
+    }
+
+    footer{
+        padding-top: 88%;
         padding-left: 5%;
     }
 }
