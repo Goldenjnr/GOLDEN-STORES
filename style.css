@@ -292,6 +292,54 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 @media (max-width: 768px) {
+header {
+    padding: 2rem 4%;
+}
+
+header .country {
+    left: 35%;
+    text-align: center;
+}
+
+section {
+    padding: 5rem 4% 2rem;
+}
+
+.logs {
+    left: 10%;
+}
+
+footer {
+    padding-top: 28%;
+    padding-left: 5%;
+}
+
+.arch {
+    width: 70%;
+    height: 150%;
+    position: absolute;
+    z-index: -1;
+    opacity: 90%;
+}
+
+.cards {
+    left: 50%;
+    margin-top: 3%;
+}
+
+.cards h3 {
+    font-size: 1.2rem;
+    margin: 3rem 0 2rem;
+}
+
+.cards p { 
+    font-size: 1.2rem;
+    color: black;
+}
+}
+
+
+/* @media (max-width: 768px) {
     html {
         font-size: 80%;
     }
@@ -358,7 +406,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         padding-top: 25%;
         padding-left: 5%;
     }
-}
+} */
 
 @media (max-width: 720px) {
     footer{
