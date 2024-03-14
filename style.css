@@ -429,7 +429,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
 } */
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     html{
         font-size: 70%;
     }
@@ -501,18 +501,18 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         padding-top: 50%;
         padding-left: 5%;
     }
-}
+} */
 
-@media (max-width: 375px) {
-    header .country{
+/* @media (max-width: 375px) {
+    header .country{ */
         /* position: relative; */
-        left: 20%;
+        /* left: 20%; */
         /* right: 4; */
         /* text-align: center; */
         /* justify-content: center; */
-    }
+    /* } */
 
-    .sign,
+    /* .sign,
     .apple,
     .face,
     .google{
@@ -590,4 +590,172 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         padding-top: 88%;
         padding-left: 5%;
     }
+} */
+
+@media (max-width: 520px) {
+footer {
+    padding-top: 32%;
+    padding-left: 5%;
+}
+
+.arch {
+    height: 103%;
+}
+}
+
+@media (max-width: 462px) {
+header .country {
+    padding-left: 10%;
+    text-align: center;
+}
+
+.sign h4,
+.apple h4,
+.face h4 {
+    position: relative;
+    bottom: 15px;
+}
+
+.sign i,
+.apple i,
+.face i {
+    position: relative;
+    top: 14px;
+}
+
+.google i {
+    position: relative;
+    top: 15px;
+}
+
+footer {
+    padding-top: 35%;
+    padding-left: 5%;
+}
+}
+
+@media (max-width: 425px) {
+html {
+    font-size: 70%;
+}
+
+header .country {
+    padding-left: 0%;
+    text-align: center;
+}
+
+.sign,
+.apple,
+.face,
+.google {
+    width: 350px;
+}
+
+.sign h4,
+.apple h4,
+.face h4 {
+    position: relative;
+    bottom: 10px;
+}
+
+.sign i,
+.apple i,
+.face i,
+.google i {
+    position: relative;
+    top: 15px;
+}
+
+.arch {
+    position: absolute;
+    right: 0;
+    height: 125%;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.cards h3 {
+    position: relative;
+    font-size: 1.1rem;
+    margin: 5rem 0 1rem;
+}
+
+footer {
+    padding-top: 50%;
+    padding-left: 5%;
+}
+}
+
+@media (max-width: 375px) {
+header .country {
+    left: 20%;
+}
+
+.sign,
+.apple,
+.face,
+.google {
+    width: 300px;
+}
+
+.sign i,
+.apple i {
+    position: relative;
+    left: 90px;
+}
+
+.face i {
+    position: relative;
+    left: 80px;
+}
+
+.google i {
+    position: relative;
+    left: 90px;
+}
+
+.arch {
+    width: 150%;
+    height: 128%;
+    opacity: 75%;
+}
+
+.logs #first,
+.logs #sec {
+    font-size: 120%;
+}
+
+.cards h3 {
+    font-size: 130%;
+}
+
+footer {
+    padding-top: 58%;
+    padding-left: 5%;
+}
+
+footer p {
+    font-size: 110%;
+    font-weight: 300%;
+}
+
+footer ul li {
+    font-size: 120%;
+}
+}
+
+@media (max-width: 320px) {
+header .country {
+    padding-left: 0%;
+    text-align: center;
+}
+
+.arch {
+    height: 140%;
+}
+
+footer {
+    padding-top: 88%;
+    padding-left: 5%;
+}
 }
